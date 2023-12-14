@@ -13,6 +13,14 @@ public:
     int edad;
     float nota;
     std::vector<std::string> asignaturas;
-    std::vector<Asistencia> asistencias;
+    std::vector<asistencia> asistencias;
 
+
+    void mostrarEstudiante();
+    void agregarMateria(const std::string& materia);
+    void eliminarMateria(const std::string& materia);
+    void mostrarAsistencia();
+    void registrarAsistencia(const Asistencia& nuevaAsistencia);
 };
+
+#endif
