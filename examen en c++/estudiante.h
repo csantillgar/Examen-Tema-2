@@ -1,26 +1,25 @@
 #ifndef ESTUDIANTE_H
 #define ESTUDIANTE_H
 
-
 #include <iostream>
 #include <vector>
-#include "asistencia.h"
-
+#include "Asistencia.h"
 
 class Estudiante {
 public:
-    std: string nombre;
+    std::string nombre;
     int edad;
     float nota;
     std::vector<std::string> asignaturas;
-    std::vector<asistencia> asistencias;
-
+    std::vector<Asistencia> asistencias;
 
     void mostrarEstudiante();
-    void agregarMateria(const std::string& materia);
-    void eliminarMateria(const std::string& materia);
+    void agregarAsignatura(const std::string& asignatura);
+    void eliminarAsignatura(const std::string& asignatura);
     void mostrarAsistencia();
-    void registrarAsistencia(const Asistencia& nuevaAsistencia);
+    void Estudiante::registrarAsistencia(const Asistencia& nuevaAsistencia) {
+        asistencias.push_back(nuevaAsistencia);
+    }
 };
 
-#endif
+#endif // ESTUDIANTE_H
