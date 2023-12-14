@@ -66,3 +66,30 @@ https://github.com/csantillgar/Examen-Tema-2.git
         d) Una característica específica de C.
 
 ## 2. Pregunta de desarrollo de código
+
+## Conclusion
+Conclusión:
+
+Elección del lenguaje:
+
+Ambos lenguajes, C y C++, son capaces de abordar los requisitos del proyecto del CGEA.
+C++ ofrece ventajas adicionales, como abstracciones más avanzadas, orientación a objetos y características de manejo de memoria más seguras, que pueden ser beneficiosas para proyectos más grandes y complejos.
+Dado que el equipo de desarrollo tiene experiencia en ambos lenguajes, C++ podría ser preferible debido a su capacidad para proporcionar una estructura más organizada y mantenible, especialmente a medida que el sistema se expanda.
+Recomendaciones para la siguiente fase del proyecto:
+
+Documentación y comentarios:
+Continuar enfocándose en una documentación detallada y comentarios claros en el código para facilitar la comprensión y el mantenimiento del sistema.
+Pruebas exhaustivas:
+Implementar pruebas exhaustivas para validar cada componente del sistema. Esto incluye pruebas unitarias, de integración y escenarios de usuario para garantizar la funcionalidad y confiabilidad del sistema.
+Seguridad y manejo de errores:
+Fortalecer la seguridad del sistema, especialmente al trabajar con datos sensibles de los estudiantes.
+Mejorar el manejo de errores para proporcionar mensajes claros y evitar posibles vulnerabilidades.
+Optimización de rendimiento:
+A medida que el sistema crezca, considerar la optimización del rendimiento para garantizar tiempos de respuesta rápidos y eficiencia en la gestión de datos.
+Interfaz de usuario:
+Desarrollar una interfaz de usuario intuitiva y fácil de usar para mejorar la experiencia del usuario.
+Backup y recuperación de datos:
+Implementar estrategias efectivas de copia de seguridad y recuperación de datos para garantizar la integridad y disponibilidad de la información en caso de fallos del sistema.
+Escalabilidad:
+Diseñar el sistema con la escalabilidad en mente para manejar el crecimiento continuo de la universidad y la expansión de sus operaciones.
+En resumen, C++ puede ser más adecuado para proyectos complejos debido a sus características adicionales, y se recomienda centrarse en la documentación, pruebas, seguridad, rendimiento y experiencia del usuario para la próxima fase del proyecto del CGEA.
