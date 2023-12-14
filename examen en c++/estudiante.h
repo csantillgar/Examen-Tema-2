@@ -17,9 +17,7 @@ public:
     void agregarAsignatura(const std::string& asignatura);
     void eliminarAsignatura(const std::string& asignatura);
     void mostrarAsistencia();
-    void Estudiante::registrarAsistencia(const Asistencia& nuevaAsistencia) {
-        asistencias.push_back(nuevaAsistencia);
-    }
+    void RegistrarAsistencia(const Asistencia& nuevaAsistencia);
 };
 
 #endif // ESTUDIANTE_H

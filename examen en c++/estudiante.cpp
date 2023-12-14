@@ -1,4 +1,5 @@
 #include "Estudiante.h"
+#include "Asistencia.h"
 
 void Estudiante::mostrarEstudiante() {
     std::cout << "Nombre: " << nombre << "\nEdad: " << edad << "\nNota: " << nota << "\n";
@@ -24,6 +25,6 @@ void Estudiante::mostrarAsistencia() {
     }
 }
 
-void Estudiante::registrarAsistencia(const asistencia& nuevaAsistencia) {
+void Estudiante::RegistrarAsistencia(const Asistencia& nuevaAsistencia) {
     asistencias.push_back(nuevaAsistencia);
 }
